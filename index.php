@@ -36,5 +36,6 @@
         <input type="email" name="email" placeholder="email" required="required" autocomplete="off">
         <input type="password" name="password" placeholder="Mot de passe" required="required" autocomplete="off">
         <button type="submit">Connexion</button>
+        <a href="inscription.php"> Pas de compte ? Inscrivez vous !</a>
 </body>
 </html>

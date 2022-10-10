@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionnaire</title>
+    <meta http-equiv="refresh" content="0; URL=https://laboiteajeu.com/" />
+</head>
+
+
 <?php
     /*se connecter à la base donnée*/
     require_once 'config.php';

@@ -55,7 +55,7 @@
         <input type="email" name="email" placeholder="email" required="required" autocomplete="off">
         <input type="password" name="password" placeholder="Mot de passe" required="required" autocomplete="off">
         <input type="password" name="password_retype" placeholder="Retapez le mot de passe" required="required" autocomplete="off">
-        <button type="submit">Inscription</button>
+        <a href="index.php"><button type="submit">Inscription</button></a>
 </body>
 </html>
 
