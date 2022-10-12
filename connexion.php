@@ -8,7 +8,7 @@
         $password = htmlspecialchars($_POST['password']);
 
         /* vérification de si l'utilisateur est dans la base de données*/
-        $check = $bdd->prepare('SELECT pseudo, email, password FROM utilisateurs WHERE email = ?');
+        $check = $bdd->prepare('SELECT pseudo, email, password FROM membre WHERE email = ?');
         /* on lance le check*/
         $check->execute(array($email));
         /* stockage des données de check dans data (on récupére la ligne Check avec fetch)*/
